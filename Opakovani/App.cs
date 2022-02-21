@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace Opakovani
 {
@@ -10,7 +11,8 @@ namespace Opakovani
     {
         public void Run()
         {
-
+            DataLoader load = new DataLoader();
+            load.Load();
         }
     }
 }
